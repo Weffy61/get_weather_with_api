@@ -9,13 +9,14 @@ Python3 должен быть уже установлен. Затем испол
 <h2>Установка зависимостей</h2>
 Переход в директорию с исполняемым файлом и установка
 
-> cd get_weather_with_api/
 
-> pip install -r requirements.txt
+> *cd get_weather_with_api/*
+
+> *pip install -r requirements.txt*
 
 <h2>Запуск</h2>
 
-> python main.py
+> *python main.py*
 
 <h2>Цель проекта</h2>
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков dvmn.org.
