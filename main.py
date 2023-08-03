@@ -16,8 +16,11 @@ def check_weather(city):
     return request.text
 
 
-locations = ['Лондон', 'Шереметьево', 'Череповец']
-weather = check_weather
+def main():
+    locations = ['Лондон', 'Шереметьево', 'Череповец']
+    for location in locations:
+        print(check_weather(location))
 
-for location in locations:
-    print(weather(location))
+
+if __name__ == '__main__':
+    main()
